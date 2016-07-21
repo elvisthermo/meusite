@@ -1,0 +1,310 @@
+/* Reset CSS */
+* {margin: 0; padding: 0; box-sizing: border-box; font: 100%/1.5em "Trebuchet MS", Helvetica, Arial, sans-serif; }
+a {text-decoration: none; color: #FFFFFF;}
+a:visited {color: #FFFFFF;}
+a:hover {color: #800000;}
+li {list-style: none;}
+h1 { font-size: 2em; font-weight: bold;}
+h2 { font-size: 1.75em; font-weight: bold;}
+h3 { font-size: 1.3em;}
+textarea {height: 200px;}
+article { display: table; word-wrap: break-word;}
+/* Reset CSS */
+
+body{
+background-color:#696969
+}
+/*cabeçalho*/
+#container {
+	width: 180000px;
+	margin: 0 auto;
+	box-shadow: -1px -1px 5px #2C2C2C;
+	-moz-box-shadow: -1px -1px 5px #2C2C2C;
+	-o-box-shadow: -1px -1px 5px #2C2C2C;
+	-webkit-box-shadow: -1px -1px 5px #2C2C2C;
+}
+
+#container header {
+	display: table;
+	width: 100%;
+	padding-bottom: 10px;
+	background-color: #B0C4DE;
+	border-bottom: 10px solid #ffffff;	
+}
+
+
+
+/*menu */
+
+#container header nav[role='menu'] {
+	width: 100%;
+	display: table;
+	background-color: #000;  
+	padding: 40px 0;
+	border-bottom: 8px solid #ffffff;
+	margin-bottom: 10px;
+}
+
+#container header nav[role='menu'] ul {
+	float: left; width: 60%;
+}
+
+#container header nav[role='menu'] ul li{
+	display: inline;
+}
+
+#container header nav[role='menu'] ul li a{
+	height: 100%;
+	padding: 42px 20px;
+	font-weight: bold;
+	color: #B0C4DE	;
+}
+
+#container header nav[role='menu'] ul li a:hover {
+	color: #FFF;
+	background-color: #B0C4DE	;
+}
+/*perfil*/
+
+.perfil {
+	float: left;
+}
+.avatar{
+	width: 200px;
+	height: 200px;
+	border: 5px solid #CCC;
+	background-image: url('../imagens/pessoa.jpg');
+	float:left;
+	margin: 30px 10px 10px 50px;
+}
+.nome_profissao {
+	background-color: #808080;
+	color: #fff;
+	width: 575px;
+	text-align: right;
+	padding-right: 15px;
+	
+}
+
+/*rede sociais e icones*/
+.redesSociais{
+	margin-right:10px 0 0 50px;
+	float:left;
+
+}
+
+.sociais {
+	background: url('../imagens/sprite.png');
+}
+.facebook {
+	background-position: -125px -43px;
+	width: 44px;
+	height: 44px;
+}
+
+.facebook:hover {
+	background-position: -62px -43px;
+	width: 44px;
+	height: 44px;
+}
+
+.twitter {
+	background-position: -382px -43px;
+	width: 44px;
+	height: 44px;
+}
+
+.twitter:hover {
+	background-position: -316px -43px;
+	width: 44px;
+	height: 44px;
+}
+
+.googleplus {
+	background-position: -252px -43px;
+	width: 44px;
+	height: 44px;
+}
+
+.googleplus:hover {
+	background-position: -188px -43px;
+	width: 44px;
+	height: 44px;
+}
+
+.instagram {
+	background-position: -124px -100px;
+	width: 44px;
+	height: 44px;
+}
+
+.instagram:hover {
+	background-position: -61px -100px;
+	width: 44px;
+	height: 44px;
+}
+
+
+/*experiencias proficionais*/
+
+.subtitulos{
+	font-weight:bold;
+	background-color:#B0C4DE;
+	padding:50px 20px
+	border-bottom:2px dashed #666;	
+	
+}
+.box{
+	background-color:#cccccc;
+	width:100%;
+	border-bottom:10px solid #ffffff;
+	}
+.box-side{
+	float:letf;
+	text-align:right;
+	padding-right:30px;
+	width:25%;
+	min-height:100%;
+}
+.box-content{
+	width:60%;
+	padding-left:20px;
+	float:left;
+	}
+	
+	
+/*experiencias proficionais fim*/ 	
+
+
+/*contatos*/
+
+#container  header .contato{
+	background-color:#ccc;
+	float:letf;
+	padding-left:1em;
+	font-size:1em;
+		
+}
+
+.formContato {
+	width: 100%;
+	background-color: #2C2C2C;
+	
+}
+.informacao {
+	width: 35%;
+	float: left;
+	text-align: right;
+	padding: 10px 10px 0 10px;
+	color: #FFFFFF;
+	
+}
+
+.formContato form {
+	color: #FFFFFF;
+	background: #2C2C2C;
+	float: left;
+	padding: 20px 0 20px 150px;
+	font-size: 1.5em;
+}
+.formContato form label {
+	width: 180px;
+	float: left;
+}
+.formContato form p{
+	margin-bottom: 10px;
+}
+
+.formContato form input[type='submit'] {
+	padding: 5px 10px 5px 10px;
+	border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 0;
+	color: #FFFFFF;
+	background-image: linear-gradient(#D22000, #990005);
+	-o-background-image: linear-gradient(#D22000, #990005);
+	-moz-background-image: linear-gradient(#D22000, #990005);
+	-webkit-background-image: linear-gradient(#D22000, #990005);
+	margin-left: 7.5em;
+	cursor: pointer;
+}
+
+.formContato form input[type='submit']:hover {
+	background-image: linear-gradient(#990005, #D22000);
+	-o-background-image: linear-gradient(#990005, #D22000);
+	-moz-background-image: linear-gradient(#990005, #D22000);
+	-webkit-background-image: linear-gradient(#990005, #D22000);
+}
+	
+/*fim contatos*/	
+
+/*barra de progresso*/
+
+.barraProgress {
+	border-radius: 2px;
+	-o-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border: 1px solid #9C9C9C;
+	background-color: #FFF;
+	width: 800px;
+	height: 30px;
+	margin: 8px 0 0 30px;
+	float: left;
+}
+.progress {
+	height: 100%;
+	box-shadow: inset 0px -15px 10px #0085DB; /* cria sombra interna com um azul mais escuro, dando o efeito do gradiente */
+}
+
+.color {
+	background-color: #45A7E6;
+}
+
+
+
+/* Portfolio */
+
+.portfolio {
+	display: table;
+	background-color: #CCC;
+	padding: 20px;
+	width: 30%;
+	float: left;
+	text-align: center;
+	border-bottom: 10px solid #FF6347;
+}
+
+.portfolio img {
+	margin: 0 auto;
+	width: 360px;
+	height: 250px;
+}
+	
+/*barra de progresso*/
+
+
+/* Rodapé */
+footer {
+	text-align: center;
+	background-color: #CCC;
+	padding: 1em 0;
+	/*clear: both;*/
+}
+
+/* Botão de voltar para o topo 
+ * ele vai acompanhar o scroll da tela 
+ */
+.voltar-topo {
+	padding: 10px; 
+	position: fixed; /* Fixamos ele na tela */
+	bottom: 0; /* Ordenamos que ele se mantenha colado na base */
+	right: 50px; /* se posicionará da 50px em relação a direita */
+	background-color: #000000;
+}
+
+.voltar-topo a {
+	color: #FFF;
+}
